@@ -1,0 +1,52 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:darkslategrey;
+}
+header{
+    text-align: center;
+    color: antiquewhite;
+}
+section{
+    text-align: center;
+    width: 500px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: auto;
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    color: antiquewhite;
+}
+
+@media (min-width:256px) and (max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+    header{
+        padding: 10px;
+
+    }
+    section{
+        width: 230px;
+        font-size: 1em;
+        padding: 5px;
+    }
+    img{
+        width: 170px;
+    }
+    footer{
+        font-size: 0.7em;
+        margin-top: 30px;
+    }
+}
